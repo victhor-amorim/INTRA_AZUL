@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 body {
-  font-family: 'League Spartan';
+  font-family: 'League Spartan', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 0px;
+  margin: 0;
   background-color: #f8f8ff;
+  overflow: hidden;
 }
 
 header {
@@ -45,6 +46,7 @@ header h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  margin-top: 120px; /* Ajuste para evitar sobreposição com o header */
 }
 
 footer img {
@@ -72,7 +74,6 @@ footer img {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 50);
 }
 
-
 .button:nth-child(1) { background-color: #0A6474; }
 .button:nth-child(2) { background-color: #0A6474; }
 .button:nth-child(3) { background-color: #0A6474; }
@@ -81,6 +82,8 @@ footer img {
 .button:nth-child(6) { background-color: #0A6474; }
 .button:nth-child(7) { background-color: #0A6474; }
 .button:nth-child(8) { background-color: #0A6474; }
+
+/* Media Queries */
 
 /* Para telas de laptops e menores */
 @media (max-width: 1200px) {
