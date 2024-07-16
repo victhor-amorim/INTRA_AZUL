@@ -86,7 +86,7 @@ footer img {
 
   header h1 {
     font-size: 30px;
-    margin-left: -10px;
+    margin-left: -100px;
   }
 
   footer img {
@@ -103,7 +103,7 @@ footer img {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-top: 20px;
-    padding-top: 180px;
+    padding-top: 100px;
   }
 
   footer img {
@@ -118,7 +118,7 @@ footer img {
   }
  
   .logo-header{
-    width: 50px;
+    width: 70px;
   }
 
   header h1 {
