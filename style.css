@@ -52,6 +52,15 @@ header h1 {
   margin-right: 50px;
 }
 
+footer p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-top: -20px;
+  color: #0A6474;
+}
+
 footer img{
   margin-top: 80px;
   width: 400px;
